@@ -2,7 +2,7 @@
 A Unix-friendly version of conio's kbhit.
 The code used in this tiny project is mainly addopted from http://shtrom.ssji.net/skb/getc.html.
 
-# Dummy main.c
+# A dummy main.c
 ```c
 #include <stdio.h>
 #include "kbhit.h"

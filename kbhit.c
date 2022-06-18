@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <termios.h>
+#include "kbhit.h"
 
 char kbhit() {
 	struct termios old_tio, new_tio;

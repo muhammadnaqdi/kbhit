@@ -1,6 +1,5 @@
 # kbhit
-A Unix-friendly implementation of conio's kbhit (this works a little different as it returns the pressed key). The code used in this tiny project is mainly addopted from http://shtrom.ssji.net/skb/getc.html.
-
+A Unix-friendly implementation of conio's kbhit.
 # A dummy main.c
 ```c
 #include <stdio.h>

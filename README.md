@@ -1,5 +1,5 @@
 # kbhit
-A Unix-friendly implementation of conio's kbhit.
+A Unix-friendly implementation of conio's kbhit
 # A dummy main.c
 ```c
 #include <stdio.h>

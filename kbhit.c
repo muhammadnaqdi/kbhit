@@ -11,11 +11,11 @@ char kbhit() {
 
 	new_tio.c_lflag &= (~ICANON & ~ECHO);
 
-	tcsetattr(STDIN_FILENO,TCSANOW,&new_tio);
+	tcsetattr(STDIN_FILENO, TCSANOW, &new_tio);
 	
 	c = getchar();
 	
-	tcsetattr(STDIN_FILENO, TCSANOW,&old_tio);
+	tcsetattr(STDIN_FILENO, TCSANOW, &old_tio);
 	
 	return c;
 }

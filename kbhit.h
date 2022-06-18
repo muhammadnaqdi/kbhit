@@ -1,3 +1,6 @@
+#ifndef KBHIT_H
+#define KBHIT_H
+
 #include <stdio.h>
 #include <unistd.h>
 #include <termios.h>
@@ -19,3 +22,5 @@ char kbhit() {
 	
 	return c;
 }
+
+#endif

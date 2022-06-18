@@ -12,7 +12,7 @@ int main() {
 	do {
 		c = kbhit();
 		printf("%c", c);
-	} while (c != 'q');
+	} while (c != '\n');
 
 	return 0;
 }

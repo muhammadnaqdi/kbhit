@@ -1,4 +1,5 @@
 #ifndef KBHIT_H
+
 #define KBHIT_H
 
 #include <stdio.h>
